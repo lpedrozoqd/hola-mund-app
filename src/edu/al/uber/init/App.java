@@ -23,6 +23,7 @@ public class App {
 
         //3er. ejemplo:
         UberX uberX = new UberX("JXK498", new Account("Leonel Pedrozo","12400476"), "Suzuki", "2021");
+        uberX.setId(12400476);
         uberX.printDataCar();
 
     }
