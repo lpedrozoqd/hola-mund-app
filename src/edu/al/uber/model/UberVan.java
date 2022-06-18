@@ -9,7 +9,7 @@ public class UberVan extends Car{
     Map<String, ArrayList<Integer>> typeCarAccepted =
         new HashMap<String, ArrayList<Integer>>();
     
-    List<String> seatsMaterial) = new ArrayList<String>();
+    List<String> seatsMaterial = new ArrayList<String>();
         
     public UberVan(String license, Account driver,
         Map<String,ArrayList<Integer>> typeCarAccepted,

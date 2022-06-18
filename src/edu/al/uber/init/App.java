@@ -1,7 +1,6 @@
 package edu.al.uber.init;
 
 import edu.al.uber.model.Account;
-import edu.al.uber.model.Car;
 import edu.al.uber.model.UberX;
 
 public class App {
