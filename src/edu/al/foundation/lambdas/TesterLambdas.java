@@ -89,7 +89,28 @@ public class TesterLambdas {
             }
     }
 
-    //Opción 8.2: 
+    //Opción 8.2: uso de genéricos más extensivamente
+    //Teniendo el caso 7.2, lo siguiente será una versión que acepta una colección
+
+    public static <X,Y> void processElements(
+        Iterable<X> source,
+        Predicate<X> tester,
+        Function<X, Y> mapper,
+        Consumer<Y> block){
+            for (X p: source){
+                if (tester.test(p)){
+                    Y data = mapper.apply(p);
+                    block.accept(data);
+                }
+            }
+    }
+
+    //Opció 9: usar "operaciones agregadas" que aceptarn "funciones lambdas"
+    //como parámetros
+
+    
+
+
 
 
     // =================================================================
@@ -166,6 +187,17 @@ public class TesterLambdas {
                 && p.getAge() <= 41,
               p-> p.getEmailAddress(),
               email -> System.out.println(email));
+
+          System.out.println("OPCION #8- usando generics al máximo para las 'expresiones lambdas' para todo e incluso extrayendo valor y evaluarlo antes de...!");
+          processElements(
+            roster,
+            p -> p.getGender() == Person.Sex.FEMALE
+                && p.getAge()  >= 29
+                && p.getAge() <= 41,
+            p -> p.getEmailAddress(),
+            email -> System.out.println(email)
+        );
+
 
     }
 }
