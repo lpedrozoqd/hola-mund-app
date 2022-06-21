@@ -1,4 +1,4 @@
-package edu.al.foundation.classes.anonymousClasses;
+package edu.al.foundation.classesAll.anonymousClasses;
 
 public class HelloWorldAnonymousClasses {
 

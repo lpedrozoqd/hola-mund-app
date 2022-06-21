@@ -1,4 +1,4 @@
-package edu.al.foundation.classes.herencia;
+package edu.al.foundation.classesAll.herencia;
 
 public class MountainBike extends Bicycle{
 

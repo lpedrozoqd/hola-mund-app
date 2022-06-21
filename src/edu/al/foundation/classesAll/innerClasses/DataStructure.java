@@ -1,4 +1,4 @@
-package edu.al.foundation.classes.innerClasses;
+package edu.al.foundation.classesAll.innerClasses;
 
 import java.util.Iterator;
 

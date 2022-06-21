@@ -1,4 +1,4 @@
-package edu.al.foundation.classes.nestedClasses;
+package edu.al.foundation.classesAll.nestedClasses;
 
 public class TopLevelClass {
     void accessMemeber(OuterClass outer){

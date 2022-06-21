@@ -1,4 +1,4 @@
-package edu.al.foundation.classes.localClasses;
+package edu.al.foundation.classesAll.localClasses;
 
 public class LocalClassExample {
     static String regularExpression = "[^0-9]";
