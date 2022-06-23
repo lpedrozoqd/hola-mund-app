@@ -1,16 +1,20 @@
-package edu.al.uber.model;
+package edu.al.otros.uber.model;
 
-public class Driver extends Account {
+public class User extends Account {
     String email;
     String password;
+   
+
+
     
-    public Driver(String name, String document, String email, String password) {
+    public User(String name, String document, String email, String password) {
         super(name, document);
         this.email = email;
         this.password = password;
+        
     }
     
-    void printDataDriver(){
+    void printDataUser(){
         System.out.println(
             "Document: " + document +
             "Name: " + name +

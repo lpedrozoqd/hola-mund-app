@@ -1,4 +1,4 @@
-package edu.al.uber.model;
+package edu.al.otros.uber.model;
 
 public class UberX extends Car{
     String brand;

@@ -1,4 +1,4 @@
-package edu.al.uber.model;
+package edu.al.otros.uber.model;
 
 public class Payment {
     public Integer id;

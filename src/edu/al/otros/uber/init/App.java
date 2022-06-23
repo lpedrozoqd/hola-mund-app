@@ -1,7 +1,7 @@
-package edu.al.uber.init;
+package edu.al.otros.uber.init;
 
-import edu.al.uber.model.Account;
-import edu.al.uber.model.UberX;
+import edu.al.otros.uber.model.Account;
+import edu.al.otros.uber.model.UberX;
 
 public class App {
     public static void main(String[] args) throws Exception {
